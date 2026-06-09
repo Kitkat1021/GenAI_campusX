@@ -1,0 +1,14 @@
+# Ignore environment variable files containing secrets
+.env
+
+# Ignore the virtual environment folder
+venv/
+env/
+
+# Ignore local MLflow experiment data (if any got created locally)
+mlruns/
+.trash/
+
+# Ignore typical OS metadata files
+.DS_Store
+Thumbs.db
